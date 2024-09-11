@@ -1,0 +1,238 @@
+:root{
+    --primary-color: #55679C;
+}
+
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF5E4;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5rem;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:black ;
+    transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.text-primary{
+    color: var(--primary-color);
+}
+
+.btn-primary{
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding:1rem 1.5rem ;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    color: white;
+    filter: brightness(0.9);
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5rem;
+}
+
+.hero h1{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.hero p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.hero-image{
+    width: 500px;
+}
+
+.project{
+    margin: 0 5rem;
+}
+
+.project .project-list{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.project .project-list .project-card img{
+    width: 100%;
+}
+
+.project .project-list .project-card .project-card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project .project-list .project-card h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.project .project-list .project-card p{
+    font-size: 1rem;
+}
+
+.project-card .btn-visit{
+    width: 45px;
+    height: 45px;
+    background-color: #6c62D5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    text-decoration: none;
+}
+
+.skill{
+    background-color: white;
+    padding: 3rem;
+}
+
+.skill h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.skill .skill-list{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill .skill-list .skill-card{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+.skill .skill-list .skill-card img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.cantact{
+    background-color: white;
+    padding: 5rem;
+}
+
+.contact h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input{
+    padding: 1rem;
+    border-radius: 15%;
+} 
+
+.contact {
+    height: 80vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contact h3 {
+    font-size: 2rem; 
+    font-weight: 600;
+    margin-bottom: 1.5rem; 
+    text-align: center;
+}
+
+.contact form {
+    width: 100%; 
+    max-width: 80%; 
+}
+
+.contact input, .contact textarea {
+    width: 100%; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    border-radius: 0.5rem;
+    border: 1px solid #ccc; 
+    font-size: 1rem; 
+}
+
+.contact textarea {
+    height: 150px; 
+}
+
+.contact button {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: var(--secondary-color);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: var(--primary-color);
+}
